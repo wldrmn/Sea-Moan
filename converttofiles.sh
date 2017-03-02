@@ -1,7 +1,11 @@
 #!/bin/bash
+cd "/Users/Rob/Code/wldrmn/Sea-Moan"
 
-for i in $(cat seamoan.csv); do
-  name=$(echo "$i"|awk -F',' '{ print $0 >($1 ".xml") }'  seamoan.csv)
-  echo "doing $name"
-  echo "<$name>$name</$name>" >${name}.xml
-done
+mkdir -p out
+
+strt="this is the start of the file"
+why="this is the end of the file"
+
+awk -F',' \
+ '{ f="\"out/"$1".txt\""; system("echo \"          " $0 ""             "\" >" f ); }'  \
+ seamoan.csv
