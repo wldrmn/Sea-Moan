@@ -1,1 +1,58 @@
+.wildfire {
+	background-color: #9C2A00;
+}
+.sunset-reflecting-on{
+	background-color: #e34234;
+}
+.flame {
+	background-color: #9C2A00;
+}
+.coral {
+	background-color: #e34234;
+}
+.vermillion {
+	background-color: #e34234;
+}
+.and-tangelo-waves {
+	background-color: #f94d00;
+}
+.she-dives-in-the-water,
+.chasing-the-light,
+.deeper-and-deeper,
+.fighting-the-tide,
+.the-sinking-the-drifting, {
+	float: none;
+}
 
+.sea-moan, .simona {
+	background-color: ruby;
+}
+
+.injury,
+.instinct,
+.the-past-and-the-now,
+.are-swirling-perspective,
+.theres-no-up-or-down,
+.the-risk-of-the-deep-and-the-fear-of-unknown,
+.forces-the-struggle,
+.feeding-the-roll {
+	float: none;
+}
+
+.deep-dark-subduing-her-senses-and-sight {
+	display: none;
+}
+
+.the-fight-of-her-life,
+.the-deeper-she's-sinking-the-more-fear-inside {
+	color: black;
+}
+
+.gotta-give-into-deep-before-pushing-up-to-light {
+	float: top;
+}
+
+.deeper-the-deep, .lighter-the-light {
+	bottom: 100%;
+	top: 100%;	
+}
